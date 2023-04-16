@@ -23,14 +23,16 @@ public class MainFactoryMethod {
 		StandardDisplay standardDisplay;
 		FoldableDisplay foldableDisplay;
 
+		System.out.println();
+		System.out.println();
 		standardDisplay = factory.createStandardDisplay(6.6);
 		System.out.println(standardDisplay);
 		System.out.println();
-
+		System.out.println();
 		standardDisplay = factory.createTabletDisplay(10.9);
 		System.out.println(standardDisplay);
 		System.out.println();
-
+		System.out.println();
 		try {
 			foldableDisplay = factory.createFoldableDisplay(7.6);
 			System.out.println(foldableDisplay);
